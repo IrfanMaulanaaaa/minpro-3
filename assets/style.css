@@ -1,0 +1,43 @@
+body{
+    background: #ffffff url(img\170980638065259_287x421.jpg) center center/cover no-repeat;
+
+}
+
+.movie-container {
+    display: flex;
+}
+
+.movie-image {
+    margin-right: 20px; /* Jarak antara gambar dan info */
+}
+
+.movie-info {
+    flex-grow: 1; /* Mengisi sisa ruang kosong */
+}
+/* styles.css */
+
+/* Style untuk container */
+.container {
+    max-width: 600px;
+}
+
+/* Style untuk form group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Style untuk tombol */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
